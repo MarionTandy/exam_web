@@ -2,3 +2,27 @@ body{
     font-family : "Poppins", Arial, sans-serif ; 
 }
 
+header {
+    background-color: #6D429C;
+    color: white;
+    font-size: 0.8em;
+}
+
+header img {
+    margin : 1em 0em 1em 0em ; 
+}
+
+    header i {
+        margin-right: 1em;
+        border: 1px solid #88BA14;
+        border-radius: 20px;
+        padding: 0.6em 0.6em;
+        color: #88BA14 ; 
+    }
+
+.flex_container_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

@@ -1,11 +1,29 @@
-@media screen and (max-width: 800px) {
-    .onlyPC{ display: none; }  
+  @media screen and (max-width: 800px) {
+
+    .flex_container_header{
+    flex-wrap: wrap;
+    margin-top : 0.5em ; 
+    }
+
+    #logo{
+    width: 20%;
+    height: auto;
+    }
+
+    #reseaux {
+      margin-bottom : 0.5em ; 
+    }
+
+    .onlyPC{ 
+      display: none; 
+    }  
     
   }
   
   @media screen and (min-width: 800px){
-  
-    .topnav{ display: none;}
+    .topnav{ 
+      display: none;
+    }
   }
 
 /*definition de la police g�n�rale pour l'ensemble de la page
@@ -126,38 +144,6 @@ nav ul {
    background-color: grey;
    color: white;
   }
-  
-
-
-
-/*styles du header*/
-
-.flex_container_header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #6D429C;
-    color: white;
-    font-size: 0.9em;
-    font-weight: 200;
-}
-
-#logo {
-    margin: 1em 0em 1em 0em;
-    max-width: 100%;
-    height: auto ; 
-    
-}
-
-header i {
-    margin-right: 1em;
-    border: 1px solid #88BA14;
-    border-radius: 20px;
-    padding: 0.6em 0.6em;
-    color: #88BA14 ; 
-}
-
-
 
   /*styles de la banni�re*/
 

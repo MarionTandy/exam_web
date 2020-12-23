@@ -1,23 +1,29 @@
-body{
-    font-family : "Poppins", Arial, sans-serif ; 
-
-    
+/*definition de la police g�n�rale pour l'ensemble de la page
+    et de la largeur d'occupation du body � l'�cran
+*/
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    width : 100% ;
+    margin : 0% ; 
 }
 
-.flex-container nav {
+/*styles du header*/
+
+.flex_container_header {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-header {
+    align-items: center;
     background-color: #6D429C;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    font-weight: 200;
 }
 
-header img {
-    margin : 1em 0em 1em 0em ; 
+#logo {
+    margin: 1em 0em 1em 0em;
+    max-width: 100%;
+    height: auto ; 
+    
 }
 
 header i {
@@ -28,23 +34,23 @@ header i {
     color: #88BA14 ; 
 }
 
-.flex_container_header {
+/*style du menu de navigation*/
+
+.flex-container nav {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav ul {
     
     list-style-type: none;
-    width: 100%;
     margin: 0;
     margin-left: 5%;
     padding: 0;
     overflow: hidden; 
   }
 
-  
   nav li {
     float: left; 
   }
@@ -68,6 +74,39 @@ nav ul {
     color: white;
   }
 
-  .banniere {
-      background-image: url("../");
-  }
+  /*styles de la banni�re*/
+
+.banniere {
+    background: url("img/Images fond/Serie A/banniere.jpg");
+    background-size : cover ; 
+    height: 35em;
+    position : relative ; 
+}
+
+.texte_banniere {
+    position : absolute ; 
+    bottom : 4em ; 
+    left : 5% ; 
+}
+
+.texte_banniere h4 {
+    color: #88b414 ; 
+    font-weight : 200 ; 
+    font-size : 1.5em ; 
+}
+
+.texte_banniere h1 {
+    color : white ; 
+    font-weight : 700 ; 
+    font-size : 2.5em ; 
+}
+
+button {
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: white;
+    background-color: #88b414;
+    padding : 1em ; 
+}
+
